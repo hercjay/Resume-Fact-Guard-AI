@@ -105,6 +105,7 @@ export async function runAgentPipeline(
 
   let iterations = 1;
   const verifiers = enabled.filter((i) => i.afterDraft);
+  const cumulativeViolations: string[] = [];
 
   for (let round = 0; round < MAX_REPAIRS && verifiers.length > 0; round++) {
     let anyNeedsRepair = false;
@@ -140,7 +141,14 @@ export async function runAgentPipeline(
 
     if (!anyNeedsRepair) break;
 
-    const repairUserPrompt = `Here is your previous draft:\n\n${stringifyDraft(draft)}\n\nIssues found that must be fixed:\n${roundInstructions.join(
+    if (ctx.notes.cumulativeRepairMemory) {
+      cumulativeViolations.push(...roundInstructions);
+    }
+    const instructionsToUse = ctx.notes.cumulativeRepairMemory
+      ? cumulativeViolations
+      : roundInstructions;
+
+    const repairUserPrompt = `Here is your previous draft:\n\n${stringifyDraft(draft)}\n\nIssues found that must be fixed:\n${instructionsToUse.join(
       "\n"
     )}\n\nRewrite it to address every issue above, while staying consistent with all prior constraints and facts.\n\n${DRAFT_FORMAT_INSTRUCTIONS}`;
 

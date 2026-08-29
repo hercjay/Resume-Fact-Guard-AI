@@ -1,0 +1,830 @@
+[
+  {
+    "caseId": "case-01-easy-clean-match",
+    "finalOutput": "RESUME SUMMARY:\nFrontend engineer with 3 years of experience building with React and TypeScript at a Series A fintech startup. Rebuilt the checkout flow, reducing page load time from 4.2s to 1.1s through focused performance work. Mentored 2 junior engineers over 18 months, supporting their technical growth and code quality. Seeking to apply hands-on React/TypeScript expertise, performance optimization experience, and mentoring track record as a Senior Frontend Engineer.\n\nCOVER LETTER:\nDear Hiring Team,\n\nI’m excited to apply for the Senior Frontend Engineer role at Nimbus Retail. With 3 years of frontend experience using React and TypeScript at a Series A fintech startup, I’ve built and refined production interfaces in a fast-moving environment.\n\nOne of my key accomplishments was rebuilding the checkout flow, which cut page load time from 4.2s to 1.1s. That project taught me how to identify performance bottlenecks and make measurable improvements that directly impact user experience.\n\nI also mentored 2 junior engineers over 18 months, helping them grow in their roles and develop solid frontend practices. I enjoy combining hands-on engineering with supporting others on the team.\n\nI’d welcome the chance to bring my React/TypeScript experience, performance focus, and mentoring skills to Nimbus Retail. Thank you for your consideration.\n\nBest regards,\n[Your Name]",
+    "verification": {
+      "claims": [
+        {
+          "text": "Frontend engineer with 3 years of experience building with React and TypeScript at a Series A fintech startup.",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Rebuilt the checkout flow, reducing page load time from 4.2s to 1.1s.",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "Rebuilt the checkout flow through focused performance work.",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Mentored 2 junior engineers over 18 months.",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "Supporting their technical growth and code quality.",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Hands-on React/TypeScript expertise.",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Performance optimization experience.",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "Mentoring track record.",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "With 3 years of frontend experience using React and TypeScript at a Series A fintech startup.",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Built and refined production interfaces in a fast-moving environment.",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Rebuilding the checkout flow, which cut page load time from 4.2s to 1.1s.",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "That project taught me how to identify performance bottlenecks and make measurable improvements that directly impact user experience.",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I mentored 2 junior engineers over 18 months.",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "Helping them grow in their roles and develop solid frontend practices.",
+          "supportedByFactId": null
+        }
+      ],
+      "fabricatedCount": 5,
+      "totalClaims": 14
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 41182,
+    "qualityScore": 4
+  },
+  {
+    "caseId": "case-02-easy-design",
+    "finalOutput": "RESUME SUMMARY:\nProduct designer with 5 years of experience in product design, specializing in Figma and design systems. Led a design system rebuild that was adopted by 4 product teams, demonstrating the ability to own and scale design infrastructure. Conducted 12 user research sessions for a mobile onboarding redesign, contributing to a 9% improvement in activation rate. Experienced in driving both design systems and user research for mobile onboarding, directly aligning with the Senior Product Designer role at Fieldnote.\n\nCOVER LETTER:\nDear Hiring Team,\n\nI’m applying for the Senior Product Designer role at Fieldnote because it combines two areas where I have direct, hands-on experience: owning a design system and driving user research for mobile onboarding.\n\nIn my five years of product design work, I led a design system rebuild that was adopted by four product teams. This involved establishing scalable patterns in Figma and collaborating across teams to ensure the system met real product needs.\n\nI also ran 12 user research sessions to inform a mobile onboarding redesign, and the resulting changes improved activation rate by 9%. That experience taught me how to turn research insights into measurable onboarding improvements.\n\nI’d welcome the chance to bring that same focus on systems and research to Fieldnote’s mobile app onboarding experience.\n\nBest regards,\n[Your Name]",
+    "verification": {
+      "claims": [
+        {
+          "text": "Product designer with 5 years of experience in product design",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "specializing in Figma and design systems",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Led a design system rebuild that was adopted by 4 product teams",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "demonstrating the ability to own and scale design infrastructure",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "Conducted 12 user research sessions for a mobile onboarding redesign",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "contributing to a 9% improvement in activation rate",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "Experienced in driving design systems",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "Experienced in driving user research for mobile onboarding",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "direct, hands-on experience owning a design system",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "direct, hands-on experience driving user research for mobile onboarding",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "In my five years of product design work",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "I led a design system rebuild that was adopted by four product teams",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "establishing scalable patterns in Figma",
+          "supportedByFactId": null
+        },
+        {
+          "text": "collaborating across teams to ensure the system met real product needs",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I also ran 12 user research sessions to inform a mobile onboarding redesign",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "the resulting changes improved activation rate by 9%",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "That experience taught me how to turn research insights into measurable onboarding improvements",
+          "supportedByFactId": "F3"
+        }
+      ],
+      "fabricatedCount": 2,
+      "totalClaims": 17
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 54776,
+    "qualityScore": 4
+  },
+  {
+    "caseId": "case-03-medium-partial-overlap",
+    "finalOutput": "RESUME SUMMARY:\nBackend engineer with 2 years of experience building services in Node.js and PostgreSQL. Designed a rate-limiting middleware that is now used across six internal services, demonstrating an ability to create reusable, production-grade components. Has basic hands-on familiarity with Docker, including containerizing a side project. Seeking to apply a solid backend foundation to Ledgerly's Node.js and PostgreSQL services, while growing into event-driven architecture and message-queue-based systems.\n\nCOVER LETTER:\nDear Hiring Team, I'm excited to apply for the Backend Engineer role at Ledgerly. With two years of backend engineering experience focused on Node.js and PostgreSQL, I've built and maintained services that prioritize reliability and performance. One of my key accomplishments was designing a rate-limiting middleware that is now used across six internal services, which taught me how to create reusable infrastructure that supports multiple teams. I've also started using Docker to containerize a side project, giving me practical familiarity with the container-based workflow you use for deployments. I want to be upfront that I do not yet have production experience with message queues or event-driven architecture, but I am actively looking to build that expertise. I'm drawn to this role because it offers exactly that opportunity, and I'm confident my Node.js, PostgreSQL, and systems-thinking skills would let me contribute quickly while I ramp up on your queue-based infrastructure. Thank you for considering my application. I'd welcome the chance to discuss how my background and enthusiasm can add value to Ledgerly. Sincerely, [Your Name]",
+    "verification": {
+      "claims": [
+        {
+          "text": "Backend engineer with 2 years of experience building services in Node.js and PostgreSQL",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Designed a rate-limiting middleware that is now used across six internal services",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "demonstrating an ability to create reusable, production-grade components",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Has basic hands-on familiarity with Docker, including containerizing a side project",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "With two years of backend engineering experience focused on Node.js and PostgreSQL",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "I've built and maintained services that prioritize reliability and performance",
+          "supportedByFactId": null
+        },
+        {
+          "text": "One of my key accomplishments was designing a rate-limiting middleware that is now used across six internal services",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "which taught me how to create reusable infrastructure that supports multiple teams",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I've also started using Docker to containerize a side project",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "giving me practical familiarity with the container-based workflow you use for deployments",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I do not yet have production experience with message queues",
+          "supportedByFactId": "F4"
+        },
+        {
+          "text": "I do not yet have production experience with event-driven architecture",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I am actively looking to build that expertise",
+          "supportedByFactId": null
+        }
+      ],
+      "fabricatedCount": 6,
+      "totalClaims": 13
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 31981,
+    "qualityScore": 4
+  },
+  {
+    "caseId": "case-04-medium-irrelevant-noise",
+    "finalOutput": "RESUME SUMMARY:\nFull-stack engineer with 4 years of experience building React frontends and Django backends. Built an internal admin dashboard used daily by the support team, demonstrating a focus on effective internal tooling. Wrote unit tests for the payments module and raised coverage from 40% to 78%. Comfortable working across the stack and committed to testable, maintainable code.\n\nCOVER LETTER:\nDear Hiring Manager,\n\nI'm excited to apply for the Full-Stack Engineer role at Portside Analytics. With 4 years of experience as a full-stack engineer working in React and Django, I match the core of what you're looking for. I also care deeply about test coverage and internal tooling, two areas called out in the job description.\n\nIn my work as a full-stack engineer, I built an internal admin dashboard that the support team uses every day. That project taught me how to turn internal needs into practical, reliable tools. I also wrote unit tests for the payments module, raising coverage from 40% to 78% and making the codebase more stable.\n\nI would welcome the chance to bring that same focus on useful internal tools and solid test coverage to Portside Analytics. Thank you for your consideration.\n\nSincerely,\n[Your Name]",
+    "verification": {
+      "claims": [
+        {
+          "text": "Full-stack engineer with 4 years of experience building React frontends and Django backends.",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Built an internal admin dashboard used daily by the support team",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "demonstrating a focus on effective internal tooling",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Wrote unit tests for the payments module and raised coverage from 40% to 78%.",
+          "supportedByFactId": "F5"
+        },
+        {
+          "text": "Comfortable working across the stack",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "committed to testable, maintainable code",
+          "supportedByFactId": null
+        },
+        {
+          "text": "With 4 years of experience as a full-stack engineer working in React and Django",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "I also care deeply about test coverage and internal tooling",
+          "supportedByFactId": null
+        },
+        {
+          "text": "In my work as a full-stack engineer, I built an internal admin dashboard that the support team uses every day.",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "That project taught me how to turn internal needs into practical, reliable tools.",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I also wrote unit tests for the payments module, raising coverage from 40% to 78%",
+          "supportedByFactId": "F5"
+        },
+        {
+          "text": "making the codebase more stable",
+          "supportedByFactId": null
+        }
+      ],
+      "fabricatedCount": 5,
+      "totalClaims": 12
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 35400,
+    "qualityScore": 5
+  },
+  {
+    "caseId": "case-05-hard-skill-gap",
+    "finalOutput": "RESUME SUMMARY:\nBackend engineer with 2 years of experience building and maintaining Node.js and PostgreSQL services. Designed a rate-limiting middleware that is currently used across 6 internal services, demonstrating the ability to create reliable, reusable backend components. Solid foundation in service architecture and database-backed APIs. Currently expanding skills toward containerized deployments and eager to contribute to a Kubernetes-based infrastructure while growing in that area.\n\nCOVER LETTER:\nDear Hiring Team at Ledgerly, I’m applying for the Backend Engineer position because it sits squarely at the intersection of my current strengths: Node.js services and PostgreSQL. In my two years as a backend engineer, I’ve built and maintained services using these technologies, and I recently designed a rate-limiting middleware that is now used across 6 internal services. This work taught me how to build for cross-service reliability and consistency. I understand that this role requires Kubernetes experience, and I want to be upfront that I do not yet have professional experience with Kubernetes or container orchestration. However, I have a strong backend foundation and a track record of quickly mastering the tools my team relies on. I’m eager to learn Kubernetes and apply my existing skills to help Ledgerly build robust services. I’d welcome the chance to discuss how my backend experience and enthusiasm for learning can contribute to your team. Thank you for your consideration. Sincerely, [Your Name]",
+    "verification": {
+      "claims": [
+        {
+          "text": "Backend engineer with 2 years of experience building and maintaining Node.js and PostgreSQL services",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Designed a rate-limiting middleware that is currently used across 6 internal services",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "Solid foundation in service architecture and database-backed APIs",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Currently expanding skills toward containerized deployments",
+          "supportedByFactId": null
+        },
+        {
+          "text": "In my two years as a backend engineer, I’ve built and maintained services using these technologies",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "I recently designed a rate-limiting middleware that is now used across 6 internal services",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "This work taught me how to build for cross-service reliability and consistency",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I do not yet have professional experience with Kubernetes or container orchestration",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "I have a strong backend foundation and a track record of quickly mastering the tools my team relies on",
+          "supportedByFactId": null
+        }
+      ],
+      "fabricatedCount": 4,
+      "totalClaims": 9
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 17171,
+    "qualityScore": 5
+  },
+  {
+    "caseId": "case-06-hard-seniority-mismatch",
+    "finalOutput": "RESUME SUMMARY:\nJunior software engineer with one year of professional experience delivering bug fixes and small features in a production environment. Completed a 12-week coding bootcamp, providing a strong foundation in full-stack development. Independently shipped a CSV export feature end-to-end that is now used by three internal teams, demonstrating the ability to own a feature from requirements to deployment. Seeking to grow into senior engineering responsibilities and contribute to larger cross-team initiatives, while continuing to develop systems design expertise.\n\nCOVER LETTER:\nDear Hiring Manager,\n\nI am writing to apply for the Staff Software Engineer position at Aventide Systems. I want to be upfront: I am early in my career with one year of professional experience, and I do not meet the 8+ years or staff-level leadership background you are seeking. I understand this is a long shot, but I believe my hands-on ownership of production features and my drive to take on larger technical challenges are worth sharing.\n\nIn my current role as a junior software engineer, I have spent the past year working on bug fixes and small features across the codebase. One of my proudest accomplishments was shipping a CSV export button end-to-end, from understanding the internal team workflows to implementing the feature and getting it into production. That feature is now actively used by three internal teams, and it taught me how to navigate requirements, write clean code, and see a small initiative through to completion.\n\nI recognize that staff-level work at Aventide requires deep systems design expertise and a proven record of leading cross-team initiatives—areas where I do not yet have experience. What I can offer is a strong foundation from my coding bootcamp, a proven ability to ship real features, and an eagerness to learn from senior engineers. If you are open to considering strong junior talent for a future apprenticeship or rotational track, I would be glad to discuss how my skills could contribute.\n\nThank you for your time and consideration.\n\nSincerely,\n[Your Name]",
+    "verification": {
+      "claims": [
+        {
+          "text": "Junior software engineer with one year of professional experience delivering bug fixes and small features in a production environment",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Completed a 12-week coding bootcamp",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "providing a strong foundation in full-stack development",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Independently shipped a CSV export feature end-to-end",
+          "supportedByFactId": null
+        },
+        {
+          "text": "a CSV export feature end-to-end that is now used by three internal teams",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "demonstrating the ability to own a feature from requirements to deployment",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Seeking to grow into senior engineering responsibilities",
+          "supportedByFactId": null
+        },
+        {
+          "text": "contributing to larger cross-team initiatives",
+          "supportedByFactId": null
+        },
+        {
+          "text": "continuing to develop systems design expertise",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I am early in my career with one year of professional experience",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "I do not meet the 8+ years or staff-level leadership background you are seeking",
+          "supportedByFactId": null
+        },
+        {
+          "text": "my hands-on ownership of production features",
+          "supportedByFactId": null
+        },
+        {
+          "text": "my drive to take on larger technical challenges",
+          "supportedByFactId": null
+        },
+        {
+          "text": "In my current role as a junior software engineer",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "I have spent the past year working on bug fixes and small features",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "across the codebase",
+          "supportedByFactId": null
+        },
+        {
+          "text": "shipping a CSV export button end-to-end",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "from understanding the internal team workflows",
+          "supportedByFactId": null
+        },
+        {
+          "text": "implementing the feature and getting it into production",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "That feature is now actively used by three internal teams",
+          "supportedByFactId": "F3"
+        },
+        {
+          "text": "it taught me how to navigate requirements, write clean code, and see a small initiative through to completion",
+          "supportedByFactId": null
+        },
+        {
+          "text": "areas where I do not yet have experience",
+          "supportedByFactId": null
+        },
+        {
+          "text": "a strong foundation from my coding bootcamp",
+          "supportedByFactId": null
+        },
+        {
+          "text": "a proven ability to ship real features",
+          "supportedByFactId": null
+        },
+        {
+          "text": "an eagerness to learn from senior engineers",
+          "supportedByFactId": null
+        }
+      ],
+      "fabricatedCount": 16,
+      "totalClaims": 25
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 62587,
+    "qualityScore": 3
+  },
+  {
+    "caseId": "case-07-outlier-vague-posting",
+    "finalOutput": "RESUME SUMMARY:\nQA engineer with 3 years of experience building automated test suites in Cypress. Reduced a flaky end-to-end test suite's failure rate from 22% to 3%, improving overall reliability. Skilled in writing and maintaining automated tests to catch issues early and support faster development. Excited to bring a detail-oriented, problem-solving approach to a versatile engineering role at a fast-growing company.\n\nCOVER LETTER:\nDear Bramblewood team, I'm excited to apply for the Engineer role. As a QA engineer with 3 years of experience, I've spent my career finding ways to make software more reliable and development more efficient. My background in automated testing has given me a strong foundation for building and improving the systems behind cool products. I wrote automated test suites in Cypress and took on one of our toughest reliability challenges: a flaky end-to-end test suite. By methodically tracking down issues and improving test stability, I cut its failure rate from 22% to 3%. That work taught me how much a solid, automated foundation can speed up a growing team. I love wearing many hats and digging into problems wherever they appear. I'd be thrilled to bring that mindset to Bramblewood and help build something great. Thank you for your consideration.",
+    "verification": {
+      "claims": [
+        {
+          "text": "QA engineer with 3 years of experience",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "building automated test suites in Cypress",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Reduced a flaky end-to-end test suite's failure rate from 22% to 3%",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "improving overall reliability",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "Skilled in writing automated tests",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "maintaining automated tests",
+          "supportedByFactId": null
+        },
+        {
+          "text": "catch issues early and support faster development",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I wrote automated test suites in Cypress",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "took on one of our toughest reliability challenges: a flaky end-to-end test suite",
+          "supportedByFactId": null
+        },
+        {
+          "text": "By methodically tracking down issues and improving test stability",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I cut its failure rate from 22% to 3%",
+          "supportedByFactId": "F2"
+        }
+      ],
+      "fabricatedCount": 4,
+      "totalClaims": 11
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 27166,
+    "qualityScore": 5
+  },
+  {
+    "caseId": "case-08-outlier-keyword-aliases",
+    "finalOutput": "RESUME SUMMARY:\nData engineer with 3 years of hands-on experience working with PostgreSQL, including writing complex SQL queries for reporting. Proficient in JavaScript and some TypeScript, primarily applied to internal tooling scripts. Adept at turning data into clear, actionable reports and building reliable internal tools. Seeking to apply this background to support Northline Freight’s data engineering needs.\n\nCOVER LETTER:\nDear Hiring Manager,\n\nI’m excited to apply for the Data Engineer position at Northline Freight. With three years of hands-on experience in PostgreSQL and complex SQL query writing for reporting, I’m confident in my ability to support your data infrastructure and reporting needs.\n\nIn my current work, I regularly design and execute complex SQL queries to produce reports that drive decision-making. I’m also comfortable in JavaScript and some TypeScript, which I’ve used to build and maintain internal tooling scripts—experience that aligns directly with your need for scripting support on internal tools.\n\nI welcome the chance to bring my database and scripting skills to Northline Freight and would enjoy contributing to your team’s data initiatives. Thank you for considering my application.\n\nSincerely,\n[Your Name]",
+    "verification": {
+      "claims": [
+        {
+          "text": "Data engineer",
+          "supportedByFactId": null
+        },
+        {
+          "text": "with 3 years of hands-on experience working with PostgreSQL",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "including writing complex SQL queries for reporting",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Proficient in JavaScript and some TypeScript",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "primarily applied to internal tooling scripts",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Adept at turning data into clear, actionable reports",
+          "supportedByFactId": null
+        },
+        {
+          "text": "building reliable internal tools",
+          "supportedByFactId": null
+        },
+        {
+          "text": "With three years of hands-on experience in PostgreSQL and complex SQL query writing for reporting",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "In my current work, I regularly design and execute complex SQL queries to produce reports",
+          "supportedByFactId": null
+        },
+        {
+          "text": "that drive decision-making",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I’m also comfortable in JavaScript and some TypeScript",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "which I’ve used to build and maintain internal tooling scripts",
+          "supportedByFactId": null
+        }
+      ],
+      "fabricatedCount": 7,
+      "totalClaims": 12
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 49914,
+    "qualityScore": 4
+  },
+  {
+    "caseId": "case-09-outlier-numeric-inflation-risk",
+    "finalOutput": "RESUME SUMMARY:\nFrontend engineer with 2 years of experience building interfaces in React. Focused on delivering reliable, conversion-friendly checkout experiences. Successfully reduced checkout error rate from 4.8% to 4.1% by implementing a validation fix. Skilled in diagnosing frontend issues and applying targeted code changes to improve transaction success.\n\nCOVER LETTER:\nDear Hiring Manager,\n\nI am excited to apply for the Frontend Engineer role at Solace Commerce. With 2 years of hands-on React experience and a dedicated focus on checkout reliability, I am eager to contribute to your conversion improvement goals.\n\nIn my current role, I identified a recurring validation issue in the checkout flow and shipped a targeted fix that reduced the error rate from 4.8% to 4.1%. This experience taught me how small frontend adjustments can have a measurable impact on checkout success and customer trust.\n\nI am passionate about building clean, dependable user interfaces and enjoy digging into the details that make checkout frictionless. I would welcome the opportunity to bring my skills to Solace Commerce and help drive similar improvements for your customers.\n\nThank you for your time and consideration.\n\nSincerely,\n[Your Name]",
+    "verification": {
+      "claims": [
+        {
+          "text": "Frontend engineer with 2 years of experience building interfaces in React.",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "Focused on delivering reliable, conversion-friendly checkout experiences.",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Successfully reduced checkout error rate from 4.8% to 4.1% by implementing a validation fix.",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Skilled in diagnosing frontend issues and applying targeted code changes to improve transaction success.",
+          "supportedByFactId": null
+        },
+        {
+          "text": "With 2 years of hands-on React experience",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "and a dedicated focus on checkout reliability",
+          "supportedByFactId": null
+        },
+        {
+          "text": "In my current role",
+          "supportedByFactId": null
+        },
+        {
+          "text": "identified a recurring validation issue in the checkout flow",
+          "supportedByFactId": null
+        },
+        {
+          "text": "shipped a targeted fix",
+          "supportedByFactId": null
+        },
+        {
+          "text": "reduced the error rate from 4.8% to 4.1%",
+          "supportedByFactId": "F1"
+        }
+      ],
+      "fabricatedCount": 6,
+      "totalClaims": 10
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 47214,
+    "qualityScore": 4
+  },
+  {
+    "caseId": "case-10-outlier-minimal-facts",
+    "finalOutput": "RESUME SUMMARY:\nTechnical support specialist with one year of experience, recently completing a self-taught path into web development with React. Building on a career transition into frontend development with foundational React skills and a strong interest in growing as a developer. Brings problem-solving abilities and user-focused communication from technical support. Seeking a junior frontend role where mentorship and real-world experience can support continued learning and development.\n\nCOVER LETTER:\nI'm excited to apply for the Junior Frontend Developer position at Cobalt Studio. As someone early in my React journey, I was drawn to this role because of the mentorship and support the company offers junior developers.\n\nI recently completed a self-taught path into web development with React, and I've also spent the past year working as a technical support specialist. That experience taught me how to approach issues methodically and communicate clearly with users—skills I believe translate well to building and refining frontend interfaces.\n\nI'm eager to deepen my React knowledge in a collaborative, professional environment, and I want to learn from experienced developers while contributing where I can. Thank you for considering my application; I would love the opportunity to grow with Cobalt Studio.",
+    "verification": {
+      "claims": [
+        {
+          "text": "Technical support specialist with one year of experience",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "recently completing a self-taught path into web development with React",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Building on a career transition into frontend development with foundational React skills",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Brings problem-solving abilities and user-focused communication from technical support",
+          "supportedByFactId": null
+        },
+        {
+          "text": "As someone early in my React journey",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "I recently completed a self-taught path into web development with React",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "I've also spent the past year working as a technical support specialist",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "That experience taught me how to approach issues methodically and communicate clearly with users",
+          "supportedByFactId": null
+        }
+      ],
+      "fabricatedCount": 2,
+      "totalClaims": 8
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 42124,
+    "qualityScore": 3
+  },
+  {
+    "caseId": "case-11-outlier-obscure-skill",
+    "finalOutput": "RESUME SUMMARY:\nEmbedded firmware engineer with 3 years of experience building industrial sensor devices using Zig. Skilled in low-level systems programming for constrained hardware, with a focus on efficient, resource-aware code. Demonstrated impact by optimizing a sensor polling loop to reduce power draw by 30%. Seeking to apply hands-on embedded development expertise to Ferrovax Robotics' mission.\n\nCOVER LETTER:\nDear Hiring Manager,\n\nI am excited to apply for the Embedded Systems Engineer position at Ferrovax Robotics. With 3 years of experience developing embedded firmware in Zig for industrial sensor devices, I have built a strong foundation in low-level systems programming for constrained hardware.\n\nIn my current role, I work directly on resource-limited devices where efficiency is critical. I successfully optimized a sensor polling loop to cut power draw by 30%, an effort that required careful attention to timing, memory, and hardware behavior. This experience has taught me how to balance performance with reliability in production embedded systems.\n\nI am drawn to Ferrovax Robotics because of your focus on advanced robotics, and I am confident that my background in Zig and constrained-device firmware can contribute to your team. I would welcome the opportunity to discuss how my skills align with your needs.\n\nThank you for your consideration.\n\nSincerely,\n[Your Name]",
+    "verification": {
+      "claims": [
+        {
+          "text": "Embedded firmware engineer with 3 years of experience building industrial sensor devices using Zig.",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Skilled in low-level systems programming for constrained hardware",
+          "supportedByFactId": null
+        },
+        {
+          "text": "with a focus on efficient, resource-aware code",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Demonstrated impact by optimizing a sensor polling loop to reduce power draw by 30%.",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "Seeking to apply hands-on embedded development expertise to Ferrovax Robotics' mission.",
+          "supportedByFactId": null
+        },
+        {
+          "text": "With 3 years of experience developing embedded firmware in Zig for industrial sensor devices",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "I have built a strong foundation in low-level systems programming for constrained hardware.",
+          "supportedByFactId": null
+        },
+        {
+          "text": "In my current role, I work directly on resource-limited devices where efficiency is critical.",
+          "supportedByFactId": null
+        },
+        {
+          "text": "I successfully optimized a sensor polling loop to cut power draw by 30%",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "an effort that required careful attention to timing, memory, and hardware behavior",
+          "supportedByFactId": null
+        },
+        {
+          "text": "This experience has taught me how to balance performance with reliability in production embedded systems.",
+          "supportedByFactId": null
+        },
+        {
+          "text": "my background in Zig",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "I am confident that my background in Zig and constrained-device firmware can contribute to your team.",
+          "supportedByFactId": null
+        }
+      ],
+      "fabricatedCount": 8,
+      "totalClaims": 13
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 44005,
+    "qualityScore": 5
+  },
+  {
+    "caseId": "case-12-outlier-ambiguous-transferable-skill",
+    "finalOutput": "RESUME SUMMARY:\nData analyst with 2 years of experience in Excel and SQL, and hands-on Python scripting skills. Built several internal command-line tools that automated report generation for a finance team, reducing manual effort in recurring workflows. Comfortable working with data, writing scripts, and developing practical internal tooling. Seeking to apply this scripting and process-automation experience as an Automation Engineer.\n\nCOVER LETTER:\nDear Hiring Manager,\n\nI am writing to apply for the Automation Engineer position at Halyard Logistics. With two years of experience as a data analyst and a proven record of building internal command-line tools in Python, I am excited about the opportunity to support your team's internal tooling and process automation needs.\n\nIn my current role, I identified a repetitive reporting process for the finance team and built several Python command-line tools to automate it. These tools streamlined report generation, saved time, and made the workflow more reliable. This hands-on experience taught me how to translate a manual process into a working script and how to collaborate with non-technical stakeholders to deliver a practical solution.\n\nI also bring a strong foundation in data analysis, with daily use of Excel and SQL. This background helps me understand the underlying data flows and business context that automation relies on. While my primary experience is in data analysis rather than dedicated automation engineering, the scripting work I have done is directly relevant to building internal tooling, and I am eager to deepen my skills in this area.\n\nThank you for considering my application. I would welcome the chance to discuss how my Python scripting and data background can contribute to Halyard Logistics.\n\nSincerely,\n[Your Name]",
+    "verification": {
+      "claims": [
+        {
+          "text": "Data analyst with 2 years of experience in Excel and SQL",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "hands-on Python scripting skills",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "Built several internal command-line tools that automated report generation for a finance team",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "reducing manual effort in recurring workflows",
+          "supportedByFactId": null
+        },
+        {
+          "text": "Comfortable working with data",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "writing scripts",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "developing practical internal tooling",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "With two years of experience as a data analyst",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "a proven record of building internal command-line tools in Python",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "I identified a repetitive reporting process for the finance team",
+          "supportedByFactId": null
+        },
+        {
+          "text": "built several Python command-line tools to automate it",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "These tools streamlined report generation",
+          "supportedByFactId": "F1"
+        },
+        {
+          "text": "saved time",
+          "supportedByFactId": null
+        },
+        {
+          "text": "made the workflow more reliable",
+          "supportedByFactId": null
+        },
+        {
+          "text": "This hands-on experience taught me how to translate a manual process into a working script",
+          "supportedByFactId": null
+        },
+        {
+          "text": "how to collaborate with non-technical stakeholders to deliver a practical solution",
+          "supportedByFactId": null
+        },
+        {
+          "text": "a strong foundation in data analysis",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "daily use of Excel and SQL",
+          "supportedByFactId": null
+        },
+        {
+          "text": "This background helps me understand the underlying data flows and business context that automation relies on",
+          "supportedByFactId": null
+        },
+        {
+          "text": "my primary experience is in data analysis",
+          "supportedByFactId": "F2"
+        },
+        {
+          "text": "the scripting work I have done is directly relevant to building internal tooling",
+          "supportedByFactId": "F1"
+        }
+      ],
+      "fabricatedCount": 8,
+      "totalClaims": 21
+    },
+    "iterations": 1,
+    "totalTokens": 0,
+    "elapsedMs": 37915,
+    "qualityScore": 5
+  }
+]

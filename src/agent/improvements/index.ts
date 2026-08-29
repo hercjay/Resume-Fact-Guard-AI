@@ -3,5 +3,5 @@ import { requirementMatcherTool } from "./requirementMatcherTool";
 
 
 export const IMPROVEMENTS: Improvement[] = [
-  { ...requirementMatcherTool, enabled: true },
+  { ...requirementMatcherTool, enabled: false },
 ];

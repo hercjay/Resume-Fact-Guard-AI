@@ -9,5 +9,5 @@ export const IMPROVEMENTS: Improvement[] = [
   { ...requirementMatcherTool, enabled: false },
   { ...factConstraintContext, enabled: true },
   { ...factGuardVerification, enabled: true },
-  { ...cumulativeRepairMemory, enabled: true },
+  { ...cumulativeRepairMemory, enabled: false },
 ];

@@ -1,4 +1,19 @@
+# dependencies
 node_modules
+
+# secrets
 .env
+.env.local
+.env.*.local
+
+# build output
+.next
+out
 dist
+*.tsbuildinfo
+next-env.d.ts
+
+# editor and os
+.vscode
+.idea
 .DS_Store

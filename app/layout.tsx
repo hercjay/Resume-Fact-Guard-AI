@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./run-console.css";
 import type { ReactNode } from "react";
 
 export const metadata = {

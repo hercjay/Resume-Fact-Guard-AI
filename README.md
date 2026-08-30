@@ -17,7 +17,7 @@
 | **Problem & User Value** | The paragraph above, plus [Try it live](#try-it-live). |
 | **Agent Solution & Engineering** | [How it works](#how-it-works) below: every improvement I tested, with the real evidence for keeping or removing each one. |
 | **End to End Quality** | Run `npm run dev`: a real, fully responsive UI renders structured, itemized fact-checked output, not a JSON dump or a raw text blob. |
-| **Measured Improvement** | [Improvement Changelog](#improvement-changelog) and [Measured Improvement](#measured-improvement) below, backed by `eval/results/<stage>/comparison.json`. |
+| **Measured Improvement** | [Improvement Changelog](#improvement-changelog) and [Measured Improvement](#measured-improvement) below, backed by the committed per-stage runs in `eval/results/baseline-only/baseline.json` and `eval/results/<stage>/solution.json`. |
 | **Reproducibility** | [REPRODUCE.md](./REPRODUCE.md): clean-environment walkthrough, exact commands, versions. |
 | **Hot Take / Insights** | [Main failure mode & hot take](#main-failure-mode--hot-take) below. |
 
@@ -86,7 +86,7 @@ Built end-to-end using AI coding agents (Gemini and Claude, via Cline in VS Code
 
 ## Setup & reproduction
 
-See [REPRODUCE.md](./REPRODUCE.md): `npm run baseline` once, then `npm run solve` and `npm run compare` per stage.
+See [REPRODUCE.md](./REPRODUCE.md): `npm run baseline` once, then `npm run solve` per stage. (`npm run eval` runs both lanes together and additionally writes a `comparison.json` for the active stage; the results committed here came from the separate `baseline` and `solve` runs, so no `comparison.json` is checked in.)
 
 ## Data
 

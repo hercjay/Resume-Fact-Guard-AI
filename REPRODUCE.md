@@ -8,13 +8,26 @@
 
 ## 1. Setup
 ```
-git clone <https://github.com/hercjay/Resume-Fact-Guard-AI.git>
-Confirm that your terminal path is pointing to the root of the project (Resume-Fact-Guard-AI)
+**A. Extract the Source Code:** Extract the submitted project ZIP archive into a local directory of your choice. Open your terminal and ensure your current working directory points directly to the project's root folder (the exact directory containing package.json, src/, and eval/). Avoid nested directory confusion if your extraction tool creates an extra wrapper folder.
+
+**B. Verify Node.js Environment:** Confirm that Node.js version 20.x or newer is active on your system by running: 
+```
+node -v
+```
+
+**C. Install Dependencies:** Run the clean installation command to fetch all required packages:
+```
 npm install
-Create a .env file in the project's root directory
-Copy the content of .env.example file into this new .env file
-# edit .env and add your real DEEPSEEK_API_KEY — model should be deepseek-v4-flash
-# (the deepseek-chat/deepseek-reasoner aliases were retired and no longer work)
+```
+(If you encounter permissions or lockfile discrepancies, ensure you are using a modern npm version bundled with Node 20+).
+
+**D. Configure Environment Variables:**
+Locate the template file named `.env.example` in the project root.
+Create a brand new file in the exact same directory and name it `.env` (Double-check that your text editor or OS does not secretly append hidden text extensions like .env.txt)
+Copy the contents of `.env.example` into your new `.env` file.  Open `.env` and fill in your active API key and configuration settings:
+> DEEPSEEK_API_KEY=your_actual_deepseek_api_key_here
+> DEEPSEEK_MODEL=deepseek-v4-flash
+Crucial Model Requirement: Ensure the model is set strictly to deepseek-v4-flash. Legacy model aliases like deepseek-chat or deepseek-reasoner have been retired and will cause runtime execution failures.
 ```
 
 ## 2. Run the baseline (once)
@@ -43,6 +56,10 @@ Open `http://localhost:3000` (or check your terminal log to see the particular p
 
 ## Data
 All eval cases are synthetic, defined in `eval/cases/cases.ts`. No real people's data is used.
+
+## Extra
+If you experience any unresolved setup issue, consider cloning a fresh copy:
+> `git clone <https://github.com/hercjay/Resume-Fact-Guard-AI.git>`
 
 ## Versions
 - Node: 24.19.0 (20.x+ should also work — nothing here uses anything newer than standard ES2022/Node 20 APIs)

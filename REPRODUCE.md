@@ -7,28 +7,52 @@
 - Approx. runtime: baseline run ≈ 12 minutes (58.6s/case × 12); final solution run (`fact-constraint-context` + `fact-guard-verification`) ≈ 21 minutes (102.9s/case × 12, driven by the repair loop averaging 2.5 rounds/case).
 
 ## 1. Setup
-```
-**A. Extract the Source Code:** Extract the submitted project ZIP archive into a local directory of your choice. Open your terminal and ensure your current working directory points directly to the project's root folder (the exact directory containing package.json, src/, and eval/). Avoid nested directory confusion if your extraction tool creates an extra wrapper folder.
 
-**B. Verify Node.js Environment:** Confirm that Node.js version 20.x or newer is active on your system by running: 
-```
+### A. Extract the Source Code
+
+Extract the submitted project ZIP archive into a local directory of your choice.
+
+Open your terminal and ensure your current working directory points **directly to the project's root folder** — the exact directory containing `package.json`, `src/`, and `eval/`.
+
+> **Note:** Avoid nested directory confusion if your extraction tool creates an extra wrapper folder.
+
+### B. Verify Node.js Environment
+
+Confirm that **Node.js version 20.x or newer** is active on your system by running:
+
+```bash
 node -v
 ```
 
-**C. Install Dependencies:** Run the clean installation command to fetch all required packages:
-```
+### C. Install Dependencies
+
+Run the clean installation command to fetch all required packages:
+
+```bash
 npm install
 ```
-(If you encounter permissions or lockfile discrepancies, ensure you are using a modern npm version bundled with Node 20+).
 
-**D. Configure Environment Variables:**
+> **Note:** If you encounter permissions or lockfile discrepancies, ensure you are using a modern npm version bundled with Node.js 20+.
+
+### D. Configure Environment Variables
+
 Locate the template file named `.env.example` in the project root.
-Create a brand new file in the exact same directory and name it `.env` (Double-check that your text editor or OS does not secretly append hidden text extensions like .env.txt)
-Copy the contents of `.env.example` into your new `.env` file.  Open `.env` and fill in your active API key and configuration settings:
-> DEEPSEEK_API_KEY=your_actual_deepseek_api_key_here
-> DEEPSEEK_MODEL=deepseek-v4-flash
-Crucial Model Requirement: Ensure the model is set strictly to deepseek-v4-flash. Legacy model aliases like deepseek-chat or deepseek-reasoner have been retired and will cause runtime execution failures.
+
+Create a brand-new file in the **exact same directory** and name it `.env`.
+
+> **Important:** Double-check that your text editor or operating system does not secretly append a file extension such as `.env.txt`.
+
+Copy the contents of `.env.example` into your new `.env` file.
+
+Open `.env` and fill in your active API key and configuration settings:
+
+```env
+DEEPSEEK_API_KEY=your_actual_deepseek_api_key_here
+DEEPSEEK_MODEL=deepseek-v4-flash
 ```
+
+> **Crucial Model Requirement:** Ensure the model is set strictly to `deepseek-v4-flash`. Legacy model aliases such as `deepseek-chat` or `deepseek-reasoner` have been retired and will cause runtime execution failures.
+
 
 ## 2. Run the baseline (once)
 

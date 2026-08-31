@@ -18,12 +18,14 @@ Copy the content of .env.example file into this new .env file
 ```
 
 ## 2. Run the baseline (once)
+
+> **For absolute certainty (belt-and-suspenders):** Although `runBaseline()` hardcodes an empty improvements array (`[]`) internally and never reads `src/agent/improvements/index.ts`, a cautious user may want to make the intended state explicit on disk. Before running the baseline, open `src/agent/improvements/index.ts` and set **every** improvement's `enabled` flag to `false`. After the baseline finishes, restore the flags to their desired state for the stages you want to test (e.g., set `factConstraintContext` and `factGuardVerification` back to `enabled: true` for the documented final stage).
+
+
 ```
 npm run baseline
 ```
 The baseline never changes stage to stage, so this only needs to run once for the whole project, not once per improvement. Re-running it would actually introduce noise: the LLM call isn't deterministic, so a fresh baseline run every stage would mean comparing each stage against a slightly different yardstick instead of a fixed one. Run it once, keep `eval/results/baseline-only/baseline.json`, and leave it alone.
-
-> **For absolute certainty (belt-and-suspenders):** Although `runBaseline()` hardcodes an empty improvements array (`[]`) internally and never reads `src/agent/improvements/index.ts`, a cautious user may want to make the intended state explicit on disk. Before running the baseline, open `src/agent/improvements/index.ts` and set **every** improvement's `enabled` flag to `false`. After the baseline finishes, restore the flags to their desired state for the stages you want to test (e.g., set `factConstraintContext` and `factGuardVerification` back to `enabled: true` for the documented final stage).
 
 ## 3. For each stage: run the solution
 ```
